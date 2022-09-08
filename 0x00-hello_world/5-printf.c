@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - point of entry
+ * main - print string
  *
- * return : Alaways 0
+ * return: always return true
  */
 int main(void)
 {
