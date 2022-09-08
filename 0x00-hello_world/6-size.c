@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - entry point
- *Description: printing out the size of various data types depending on ones system  
  * Return: Always 0(sucess)
  */
 int main(void)
