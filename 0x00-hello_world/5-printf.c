@@ -2,7 +2,7 @@
 /**
  * main - print string
  *
- * return: always return true
+ * Return: always return true
  */
 int main(void)
 {
