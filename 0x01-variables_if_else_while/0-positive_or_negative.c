@@ -2,9 +2,8 @@
 #include <stdio.h>
 #include <time.h>
 /**
- * main - entry point
- * Description: assign a random number to a variable
- * Return:always 0
+ *main - entry point
+ *Return:always 0
  */
 int main(void)
 {
