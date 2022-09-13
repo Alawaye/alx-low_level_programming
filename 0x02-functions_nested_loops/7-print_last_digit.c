@@ -5,7 +5,7 @@
  * Description: a function that is getting the ast digit
  * Return: i (last digit)
  */
-int print_last_digit(int i)
+int print_last_digit(int n)
 {
 	int i = n % 10;
 
