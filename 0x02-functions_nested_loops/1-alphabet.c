@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * main- entry point
- * Return: always 0
+ * print_alphabet- check description
+ * Description: printing out alphabetis
+ * Return: nothing
  */
 void print_alphabet(void)
 {
@@ -10,5 +11,4 @@ void print_alphabet(void)
 	for (alp = 'a'; alp <= 'z'; alp++)
 		_putchar(alp);
 	_putchar('\n');
-	
 }
