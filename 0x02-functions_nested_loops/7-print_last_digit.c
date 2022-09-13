@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_last_digit - getting the last digit
- * @i: Evaluate the integer
+ * @n: Evaluate the integer
  * Description: a function that is getting the ast digit
  * Return: i (last digit)
  */
