@@ -13,7 +13,7 @@ int main(void)
 	a = 1;
 	b = 2;
 
-	for (c = 0; c <= 50; c++)
+	for (c = 1; c <= 50; c++)
 	{
 		if (c == 50)
 		{
