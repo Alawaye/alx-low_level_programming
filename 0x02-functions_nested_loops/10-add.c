@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 /**
  * add - adding 2 integers
  * @i: number 1
