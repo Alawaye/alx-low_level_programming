@@ -21,7 +21,7 @@ int main(void)
 		}
 		else
 		{
-			printf("%ld, " a);
+			printf("%ld, ", a);
 		}
 		results = a + b;
 		a = b;
