@@ -1,13 +1,14 @@
-#incude "main.h"
+#include "main.h"
 /**
- * _isdigit - using ascii get digits from 0-9
- * @c: evaluating integer
- * Return: 1(if digits from 0-9) 0(if digits is not from 0-9)
+ *_isdigit - function declaration
+ *@c: int
+ *Return: 1 else 0
  */
 int _isdigit(int c)
 {
 	if (c >= 48 && c <= 57)
+	{
 		return (1);
-	else
-		return (0);
+	}
+	return (0);
 }
