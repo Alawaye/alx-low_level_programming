@@ -28,3 +28,4 @@ void print_number(int n)
 	{
 		_putchar(((a / count) % 10) + 48);
 	}
+}
