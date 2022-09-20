@@ -5,8 +5,10 @@
 
 /**
  *main - random password generator for 101-crackme
+
  *Return: always 0
  */
+
 int main(void)
 {
 	int N = 31;
@@ -49,6 +51,7 @@ int main(void)
 			randomizer = rand() % 4;
 			printf("%c", password[i]);
 		}
+	}
 
 	return (0);
 }
