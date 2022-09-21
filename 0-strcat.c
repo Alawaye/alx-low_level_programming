@@ -1,6 +1,4 @@
 #include "main.h"
-#include <stdio.h>
-#include <string.h>
 /**
  * _strcat - concatenating string
  * @dest: destination string
@@ -9,7 +7,7 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	int i, j = 0;
+	int i = 0, j;
 
 	while (dest[i] != '\0')
 	{
