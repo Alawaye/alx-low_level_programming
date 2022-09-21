@@ -1,1 +1,1 @@
-more fnction, more nested loops
+more pointers,arrays and string
