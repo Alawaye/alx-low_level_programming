@@ -1,12 +1,9 @@
 #include "main.h"
-
 #include <stdio.h>
-
 /**
- *
- *rot13 - ...
- *@s: ...
- *Return: ...
+ *rot13 - encoding a sting
+ *@s: char
+ *Return: s
  */
 char *rot13(char *s)
 {
