@@ -3,22 +3,23 @@
  * _strcmp - comparing two string
  * @s1: first character
  * @s2: secound chracter
- * Return: always 0 (sucess)
+ * Return: 0 (same ) 1(not the same)
  */
 int _strcmp(char *s1, char *s2)
 {
-	int i = 0, j = 0;
+	int i;
+	int flag = 0;
 
-	while (s1[j] != '\0' && s2[j] != '\0')
+	for (i = 0;  s1[i] != '\0' || s2[i] != '\0'; i++)
 	{
-		if (s1[j] != s2[j])
+		if (s1[i] != s2[i])
 		{
-			i = 1;
+			flag = 1;
 			break
 		}
-		j++;
 	}
-
-	if (i == 0)
-	return (0);
+	if (flag == 1)
+		return (1);
+	else
+		return (0);
 }
