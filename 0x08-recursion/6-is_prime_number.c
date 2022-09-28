@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 
-int checkPrime(int i, int num);
+int checkPrime(int num, int i);
 
 
 
