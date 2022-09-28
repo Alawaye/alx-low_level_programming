@@ -13,31 +13,31 @@ int checkPrime(int num, int i);
 
 int is_prime_number(int n)
 {
-	return (CheckPrime(num, num / 2));
+	return (CheckPrime(n, 1));
 }
 
 /**
  * CheckPrime - checking for prime numbers
- * @num : number to evaluate
+ * @n : number to evaluate
  * @i: iterate number
  * Return: 0(not prime) 1(prime)
  */
 
 
-int CheckPrime(int num, int i)
+int CheckPrime(int n, int i)
 {
-	if (i == 1)
-	{
-		return (1);
-	}
-
-	else if (num % i == 0)
+	if (i == n)
 	{
 		return (0);
 	}
 
+	else if (i % n == 0)
+	{
+		return (1);
+	}
+
 	else
 	{
-		return (CheckPrime(num, i - 1));
+		return (CheckPrime(n + 1, i));
 	}
 }
