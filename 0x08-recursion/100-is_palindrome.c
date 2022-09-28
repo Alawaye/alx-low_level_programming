@@ -1,4 +1,4 @@
-#include "maain.h"
+#include "main.h"
 /**
  * is_palindrome - checking if string is palindrome or not
  * @s: evauating char
