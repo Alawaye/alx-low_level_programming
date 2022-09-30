@@ -9,8 +9,8 @@
 
 int main(int argc, char *argv[])
 {
-	int i;
-	int result = 1;
+	int num1, num2;
+	int result;
 
 	if (argc != 3)
 	{
@@ -18,10 +18,12 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	for (i = 1; i < argc; i++)
+	else
 	{
-		result *= atoi(argv[i]);
+		num1 = atoi(argv[1]);
+		num2 = atoi(argv[2]);
+		result = num1 * num2;
+		printf("%d\n", result);
+		return (0);
 	}
-	printf("%d\n", result);
-	return (0);
 }
