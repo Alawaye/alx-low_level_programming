@@ -6,16 +6,13 @@
  *free_dog- Frees memory allocated to struct dog
  *@d: Pointer to struct
  */
-
 void free_dog(dog_t *d)
 {
-	if (d != Null)
+	if (d != NULL)
 	{
-		free(d->name);
+		free((*d).name);
 		free(d->age);
-		free(d->owner);
+		free((*d).owner);
 		free(d);
 	}
 }
-
-
